@@ -1,0 +1,64 @@
+/* Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* Fonts */
+@import "@fontsource/space-grotesk/400.css";
+@import "@fontsource/space-grotesk/500.css";
+@import "@fontsource/space-grotesk/700.css";
+@import "@fontsource-variable/inter";
+
+/* Design tokens */
+@theme {
+  --color-obsidian: #08090B;
+  --color-graphite: #101216;
+  --color-white-primary: #F5F7FA;
+  --color-muted: #969CA8;
+  --color-lime: #C7FF3D;
+  --color-violet: #8B5CF6;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter Variable", "Inter", sans-serif;
+}
+
+/* Base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-obsidian);
+    color: var(--color-white-primary);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--color-lime);
+    color: var(--color-obsidian);
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-graphite);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2a2d35;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3d47;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #2a2d35 var(--color-graphite);
+  }
+}
