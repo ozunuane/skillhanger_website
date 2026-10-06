@@ -154,7 +154,7 @@ export default function Footer() {
               ))}
               <li>
                 <a
-                  href="mailto:info@skillhanger.com.ng"
+                  href="mailto:skillhanger@gmail.com"
                   className="text-lime text-sm leading-loose hover:text-white-primary transition-colors duration-200 font-body"
                 >
                   Contact Us

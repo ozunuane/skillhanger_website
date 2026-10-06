@@ -80,7 +80,7 @@ export default function CTA() {
               Start a Project &rarr;
             </Link>
             <a
-              href="mailto:info@skillhanger.com.ng"
+              href="mailto:skillhanger@gmail.com"
               className="font-body text-lg text-white-primary border border-white/20 px-10 py-5 rounded-xl hover:border-white/40 transition-colors duration-200 select-none"
             >
               Talk to SkillHanger
