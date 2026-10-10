@@ -76,12 +76,14 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center">
-            <Link
-              to="/contact"
+            <a
+              href="https://wa.me/2348159046233?text=Hi%20SkillHanger%2C%20I%27d%20like%20to%20start%20a%20project"
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-body font-medium text-sm bg-lime text-obsidian px-5 py-2.5 rounded-lg hover:scale-105 transition-transform duration-200 select-none"
             >
               Start a Project →
-            </Link>
+            </a>
           </div>
 
           {/* Mobile hamburger */}
@@ -156,13 +158,15 @@ export default function Navbar() {
                 }}
                 className="mt-8"
               >
-                <Link
-                  to="/contact"
+                <a
+                  href="https://wa.me/2348159046233?text=Hi%20SkillHanger%2C%20I%27d%20like%20to%20start%20a%20project"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block font-body font-medium text-base bg-lime text-obsidian px-8 py-4 rounded-xl"
                   onClick={() => setMobileOpen(false)}
                 >
                   Start a Project →
-                </Link>
+                </a>
               </motion.div>
             </nav>
           </motion.div>

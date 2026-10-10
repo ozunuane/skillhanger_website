@@ -194,12 +194,14 @@ export default function Hero() {
           variants={itemVariants}
           className="flex flex-wrap items-center justify-center gap-4 mt-10"
         >
-          <Link
-            to="/contact"
+          <a
+            href="https://wa.me/2348159046233?text=Hi%20SkillHanger%2C%20I%27d%20like%20to%20start%20a%20project"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-body font-medium text-base bg-lime text-obsidian px-8 py-4 rounded-xl hover:scale-105 transition-transform duration-200 select-none"
           >
             Start a Project →
-          </Link>
+          </a>
           <Link
             to="/work"
             className="font-body text-base text-white-primary border border-white/20 px-8 py-4 rounded-xl hover:border-white/40 transition-colors duration-200 select-none"

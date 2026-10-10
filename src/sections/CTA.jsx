@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
+
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -73,12 +73,14 @@ export default function CTA() {
             variants={itemVariants}
             className="mt-10 flex flex-wrap items-center justify-center gap-4"
           >
-            <Link
-              to="/contact"
+            <a
+              href="https://wa.me/2348159046233?text=Hi%20SkillHanger%2C%20I%27d%20like%20to%20start%20a%20project"
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-body font-medium text-lg bg-lime text-obsidian px-10 py-5 rounded-xl hover:scale-105 transition-transform duration-200 select-none"
             >
               Start a Project &rarr;
-            </Link>
+            </a>
             <a
               href="mailto:skillhanger@gmail.com"
               className="font-body text-lg text-white-primary border border-white/20 px-10 py-5 rounded-xl hover:border-white/40 transition-colors duration-200 select-none"
